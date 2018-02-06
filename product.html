@@ -1,0 +1,57 @@
+<!doctype html>
+<html ng-app="todoApp" ng-controller="ProductController as productList"  >
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script src="product.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top mt-0 p-3">
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">	<figure class="home-icon"></figure>
+          <span class="productPrice">Home</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="dropdown nav-link" href="#">	<figure class="category-icon"></figure>
+         <span class="productPrice">Categories
+           <div class="dropdown-content">
+             <p  class="dropdown-content-list" >Olives</p>
+             <p class="dropdown-content-list">Cheese</p>
+             <p class="dropdown-content-list">Milk</p>
+
+
+         </div>
+       </span>
+     </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">	<figure class="about-icon"></figure>
+          <span class="productPrice">About Us</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">	<figure class="contact-icon"></figure>
+          <span class="productPrice">Contact Us</span></a>
+      </li>
+    </ul>
+    <form class="form-inline mt-2 mt-md-0">
+      <a class="nav-link" href="#">	<figure class="search-icon"></figure>
+        <span class="productPrice">&nbsp</span></a>
+
+        <a class="nav-link" href="#">	<figure class="basket-icon"></figure>
+          <span class="productPrice">&nbsp</span></a>
+    </form>
+  </div>
+</nav>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+  </body>
+</html>

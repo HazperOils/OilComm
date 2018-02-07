@@ -98,6 +98,11 @@ body{
 
 }
 
+.drowdown-content-list-icon{
+  height: 50px;
+  width: 50px;
+}
+
 .dropdown-content-list{
   text-align: left;
   margin: auto;

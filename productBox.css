@@ -1,0 +1,35 @@
+.detailBtn{
+  background-color: #FACD63;
+  color: #FFFFFF;
+  border: 2px solid  #FACD63;
+  border-radius: 10px;
+  width: 85px;
+  height: 25px;
+  font-size: 15px;
+  font-family: "Avenir Next" !important;
+}
+
+.product-box{
+  background-color: rgba(255,255,255,.5);
+  border: 2px solid rgba(151,151,151,.5);
+  width: 190px;
+  height: 215px;
+}
+
+.product-image{
+  width: 30px;
+  height: 90px;
+}
+
+.product-price{
+    font-size: 17px;
+    font-family: "Avenir Next" !important;
+    color: #000000;
+}
+
+.product-name{
+    font-size: 15px;
+    font-family: "Avenir Next" !important;
+    font-weight: bold;
+
+}

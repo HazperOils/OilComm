@@ -2,67 +2,48 @@ html,
 body,
 #cover{
   height: 100%;
-}
-.detailBtn{
-  background-color: #FACD63;
-  color: #FFFFFF;
-  border: 2px solid  #FACD63;
-  border-radius: 10px;
-  width: 85px;
-  height: 25px;
-  font-size: 15px;
-  font-family: "Avenir Next" !important;
+  background-color: #f7f7f7;
 }
 
-.productBox{
-  background-color: rgba(255,255,255,.5);
-  border: 2px solid rgba(151,151,151,.5);
-  width: 190px;
-  height: 215px;
-}
-
-.productImage{
-  width: 30px;
-  height: 90px;
-}
-
-.productPrice{
+.nav-names{
     font-size: 17px;
     font-family: "Avenir Next" !important;
     color: #000000;
 }
 
-.productName{
-    font-size: 15px;
-    font-family: "Avenir Next" !important;
-    font-weight: bold;
-
-}
-
-body{
-  background-color: #F7F7F7;
+.home-icon, .category-icon, .about-icon, .contact-icon, .search-icon, .basket-icon{
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  color:#5D5D5D;
 }
 
 .home-icon{
   background-image: url(Home.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  display: block;
-  margin: 0 auto;
-  position: relative;
 }
 
 .category-icon{
   background-image: url(categories.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  display: block;
-  margin: 0 auto;
-  position: relative;
+}
+
+.about-icon{
+  background-image: url(about.svg);
+}
+
+.contact-icon{
+  background-image: url(contact.svg);
+}
+
+.search-icon{
+  background-image: url(search.svg);
+}
+
+.basket-icon{
+  background-image: url(basket.svg);
 }
 
 .dropdown {
@@ -76,7 +57,7 @@ body{
     left: -35%;
     margin-right: -50%;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #fafafa;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -88,7 +69,7 @@ body{
 .dropdown-content::before, .dropdown-content::after{
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 10px solid #f9f9f9;
+  border-bottom: 10px solid #fafafa;
   top: -10px;
   content: '';
   left: 50%;
@@ -118,62 +99,15 @@ p.dropdown-content-list:hover{
 
 }
 
-span.productPrice:hover .dropdown-content {
+span.nav-names:hover .dropdown-content {
     display: block;
 }
 
-.about-icon{
-  background-image: url(about.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-}
-
-.contact-icon{
-  background-image: url(contact.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  color:#5D5D5D;
-}
-
-.search-icon{
-  background-image: url(search.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  color:#5D5D5D;
-}
-
-.basket-icon{
-  background-image: url(basket.svg);
-  background-repeat: no-repeat;
-  width: 40px;
-  height: 40px;
-  background-size: contain;
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  color:#5D5D5D;
-}
-
-span.productPrice{
+span.nav-names{
   transition: color .01s ease;
 }
 
-span.productPrice:hover{
+span.nav-names:hover{
   color: #FACD63 !important;
 }
 

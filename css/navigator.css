@@ -1,17 +1,15 @@
-html,
-body,
-#cover{
+html, body, #cover {
   height: 100%;
   background-color: #f7f7f7;
 }
 
-.nav-names{
-    font-size: 17px;
-    font-family: "Avenir Next" !important;
-    color: #000000;
+.nav-names {
+  font-size: 17px;
+  font-family: "Avenir Next" !important;
+  color: #000000;
 }
 
-.home-icon, .category-icon, .about-icon, .contact-icon, .search-icon, .basket-icon{
+.home-icon, .category-icon, .about-icon, .contact-icon, .search-icon, .basket-icon {
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -19,53 +17,65 @@ body,
   display: block;
   margin: 0 auto;
   position: relative;
-  color:#5D5D5D;
+  color: #5D5D5D;
 }
 
-.home-icon{
+.site-icon {
+  background-image: url(assets/svg/water.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  display: block;
+  position: relative;
+  color: #5D5D5D;
+  margin-left: 300px;
+}
+
+.home-icon {
   background-image: url(assets/svg/Home.svg);
 }
 
-.category-icon{
+.category-icon {
   background-image: url(assets/svg/categories.svg);
 }
 
-.about-icon{
+.about-icon {
   background-image: url(assets/svg/about.svg);
 }
 
-.contact-icon{
+.contact-icon {
   background-image: url(assets/svg/contact.svg);
 }
 
-.search-icon{
+.search-icon {
   background-image: url(assets/svg/search.svg);
 }
 
-.basket-icon{
+.basket-icon {
   background-image: url(assets/svg/basket.svg);
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    left: -35%;
-    margin-right: -50%;
-    border-radius: 10px;
-    background-color: #fafafa;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    color: black !important;
+  display: none;
+  position: absolute;
+  left: -35%;
+  margin-right: -50%;
+  border-radius: 10px;
+  background-color: #fafafa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: black !important;
 }
 
-.dropdown-content-basket{
+.dropdown-content-basket {
   display: none;
   position: absolute;
   left: -100%;
@@ -73,19 +83,19 @@ body,
   border-radius: 10px;
   background-color: #fafafa;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 4px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 4px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
   z-index: 1;
   color: black !important;
   margin-top: -10px;
 }
 
-.drowdown-content-list-icon{
+.drowdown-content-list-icon {
   height: 50px;
   width: 50px;
 }
 
-.dropdown-content-list{
+.dropdown-content-list {
   text-align: left;
   margin: auto;
   left: -35%;
@@ -93,42 +103,41 @@ body,
   background-size: contain;
 }
 
-p.dropdown-content-list:hover{
+p.dropdown-content-list:hover {
   background-color: #FACD63;
   color: white;
   border-radius: 10px;
-
 }
 
 span.nav-names:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
-a.dropdown.nav-link:hover .dropdown-content-basket{
-    display: block;
+a.dropdown.nav-link:hover .dropdown-content-basket {
+  display: block;
 }
 
-span.nav-names{
+span.nav-names {
   transition: color .01s ease;
 }
 
-span.nav-names:hover{
+span.nav-names:hover {
   color: #FACD63 !important;
 }
 
-nav{
+nav {
   margin-left: 50px;
   margin-right: 50px;
 }
 
-#search-bar{
-  display:none;
+#search-bar {
+  display: none;
   font-family: "Avenir Next" !important;
   margin-top: -23px;
   border-radius: 10px;
   border-color: #5D5D5D;
 }
 
-#search-bar:target{
-  display:block;
+#search-bar:target {
+  display: block;
 }

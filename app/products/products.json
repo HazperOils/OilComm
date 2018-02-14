@@ -1,0 +1,43 @@
+[{
+  "id":"0" ,
+  "name":"komili" ,
+  "description":"best oil ever" ,
+  "price":"100₺",
+  "category": "oil",
+  "quantity": "100",
+  "imageUrl": "css/assets/img/oil.png"
+},
+{
+  "id":"0" ,
+  "name":"komili" ,
+  "description":"best oil ever" ,
+  "price":"100₺",
+  "category": "oil",
+  "quantity": "100",
+  "imageUrl": "css/assets/img/oil.png"
+},{
+  "id":"0" ,
+  "name":"komili" ,
+  "description":"best oil ever" ,
+  "price":"100₺",
+  "category": "oil",
+  "quantity": "100",
+  "imageUrl": "css/assets/img/oil.png"
+},{
+  "id":"0" ,
+  "name":"komili" ,
+  "description":"best oil ever" ,
+  "price":"100₺",
+  "category": "oil",
+  "quantity": "100",
+  "imageUrl": "css/assets/img/oil.png"
+},{
+  "id":"0" ,
+  "name":"komili" ,
+  "description":"best oil ever" ,
+  "price":"100₺",
+  "category": "oil",
+  "quantity": "100",
+  "imageUrl": "css/assets/img/oil.png"
+}
+]

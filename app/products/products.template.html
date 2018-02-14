@@ -1,0 +1,19 @@
+<section id="products">
+  <div class="container">
+    <div class="products-content">
+      <div class="row m-3">
+        <div class="col-sm-3 pb-3 " ng-repeat="product in $ctrl.products">
+          <div class="border rounded pt-3">
+          <div class="text-center">
+            <img ng-src="{{product.imageUrl}}" class="rounded"/>
+          </div>
+          <h3>{{product.name}}</h3>
+          <p>{{product.price}}</p>
+          <div class="text-center"><button type="button" class="btn btn-outline-warning">detail</button></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="js/bootstrap.min.js"></script>

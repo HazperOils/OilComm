@@ -1,5 +1,5 @@
 'use strict';
 
 angular.module('oilApp', [
-  'navMenu'
+  'navMenu','products'
 ]);

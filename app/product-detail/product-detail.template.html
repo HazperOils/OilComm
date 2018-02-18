@@ -3,9 +3,9 @@
     <div class="product-detail-content">
       <div class="row navigation-label">
         <a class="nav-link" href="#!/products">Categories<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">/<span class="sr-only">(current)</span></a>
+        <a class="nav-link">/<span class="sr-only">(current)</span></a>
         <a class="nav-link" href="#">{{$ctrl.product.category}}<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#">/<span class="sr-only">(current)</span></a>
+        <a class="nav-link">/<span class="sr-only">(current)</span></a>
         <a class="nav-link">{{$ctrl.product.name}}<span class="sr-only">(current)</span></a>
       </div>
       <div class="row">
@@ -21,9 +21,9 @@
           <p class="product-description">{{$ctrl.product.description}}<p>
 <div class="row">
 <div class="col-lg-4 quantity-container">
-  <button class="btn btn-outline-warning increment-button">-</button>
-    <input class="input-container" maxlength="2" value="1"> </input>
-  <button class="btn btn-outline-warning increment-button">+</button>
+  <button ng-click="quantity = quantity - 1" class="btn btn-outline-warning increment-button">-</button>
+    <input class="input-container" maxlength="2" value="{{quantity}}"> </input>
+  <button ng-click="quantity = quantity + 1"  class="btn btn-outline-warning increment-button">+</button>
 </div>
 <div class="col-lg-4 price-container">
 <h6 class="priceTxt">{{$ctrl.product.price}}<h6>

@@ -4,5 +4,6 @@ angular.module('oilApp', [
   'navMenu',
   'productList',
   'ngRoute',
-  'productDetail'
+  'productDetail',
+  'core'
 ]);

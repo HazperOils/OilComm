@@ -22,7 +22,7 @@
     color: beige;
 }
 
-.btn{
+.detail-btn{
     width: 120px;
     height: 45px;
     margin-bottom: 30px;
@@ -47,4 +47,11 @@ body {
 
 .border{
   background-color: white;
+}
+
+
+.image-container{
+  max-height: 200px;
+     max-width: 200px;
+     object-fit: cover;
 }

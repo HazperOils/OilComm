@@ -1,0 +1,124 @@
+.item-circle {
+  border: 3px solid rgba(250, 205, 99, .5);
+  background-color: rgba(250, 205, 99, .5);
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border-radius: 400px;
+  margin-top: 200px;
+}
+
+.product-detail-content h1 {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: -150px;
+  font-size: 50px;
+  font-family: "Avenir Next" !important;
+}
+
+.product-detail-content p {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Avenir Next" !important;
+}
+
+.product-detail-content img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 70px;
+}
+
+.add-btn {
+  width: 120px;
+  height: 45px;
+  margin-bottom: 30px;
+  background-color: #facd63;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.col-sm-6 {
+  min-width: 280px;
+}
+
+.nav-link {
+  margin-top: 30px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: rgba(250, 205, 99);
+}
+
+.input-container {
+  border: 2px solid rgba(250, 205, 99, .5);
+  border-radius: 10px;
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.priceTxt {
+  font-size: 40px;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+.increment-button {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 15px;
+  border-color: rgba(250, 205, 99, .5);
+
+}
+
+.add-button-container{
+  margin-top: 5px;
+}
+
+.btn-shape{
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.price-container{
+  margin-top: 8px;
+
+}
+
+p.product-description{
+  text-align: justify;
+}
+
+.navigation-label{
+
+  font-size: 12px;
+  font-family: "Avenir Next" !important;
+}
+
+.delivery-label{
+  font-size: 12px;
+  font-family: "Avenir Next" !important;
+  padding-bottom: 3px;
+}
+
+img.image-box-container{
+  height: 600px;
+
+  max-height: 600px;
+}

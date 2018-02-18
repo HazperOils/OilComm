@@ -1,5 +1,8 @@
 'use strict';
 
 angular.module('oilApp', [
-  'navMenu','products'
+  'navMenu',
+  'productList',
+  'ngRoute',
+  'productDetail'
 ]);

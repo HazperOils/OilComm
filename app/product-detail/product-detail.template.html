@@ -1,0 +1,37 @@
+<section id="product-detail">
+  <div class="container">
+    <div class="product-detail-content">
+      <div class="row navigation-label">
+        <a class="nav-link" href="#!/products">Categories<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">/<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">{{$ctrl.product.category}}<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">/<span class="sr-only">(current)</span></a>
+        <a class="nav-link">{{$ctrl.product.name}}<span class="sr-only">(current)</span></a>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="item-circle">
+            <div class="text-center">
+              <img class="image-box-container" ng-src="{{$ctrl.product.imageUrl}}">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h1>{{$ctrl.product.name}}<h1>
+          <p class="product-description">{{$ctrl.product.description}}<p>
+<div class="row">
+<div class="col-lg-4 quantity-container">
+  <button class="btn btn-outline-warning increment-button">-</button>
+    <input class="input-container" maxlength="2" value="1"> </input>
+  <button class="btn btn-outline-warning increment-button">+</button>
+</div>
+<div class="col-lg-4 price-container">
+<h6 class="priceTxt">{{$ctrl.product.price}}<h6>
+</div>
+<div class="col-lg-4 add-button-container">
+ <button type="button" class="btn btn-outline-warning btn-shape">Add to Cart</button> <span mb-3><a class="delivery-label mb-3">Delivery: In 5 days</a></span>
+</div>
+</div>
+</div>
+</div>
+</section>

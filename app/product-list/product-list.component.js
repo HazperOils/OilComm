@@ -7,6 +7,7 @@ angular.
       controller: ['Product',
       function ProductListController(Product) {
         this.products = Product.query();
+        console.log(this.products);
       }
     ]
 });

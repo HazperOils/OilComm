@@ -1,8 +1,22 @@
 <section id="products">
   <div class="container">
+    <div class ="row">
+      <div class="col-sm-6">
+      <a class="title">Categories</a><span id="titleShadow">Categories</span>
+    </div>
+    <div class="col-sm-6 sort-box">
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="price">Price</option>
+        </select>
+      </p>
+    </div>
+    </div>
     <div class="products-content">
-      <div class="row m-3">
-        <div class="col-sm-3 pb-3 product-list-item" ng-repeat="product in $ctrl.products">
+      <div class="row ">
+        <div class="col-sm-3 pb-3 product-list-item" ng-repeat="product in $ctrl.products | orderBy:$ctrl.orderProp">
           <div class="border rounded pt-3">
           <div class="text-center">
             <img ng-src="../assets/img/{{product.imageUrl}}" class="rounded image-container"/>

@@ -55,3 +55,33 @@ body {
      max-width: 200px;
      object-fit: cover;
 }
+
+.title {
+font-size: 45px;
+font-family: "Avenir Next" !important;
+font-weight: bold;
+color:#5D5D5D;
+position: absolute;
+margin-left: 80px;
+margin-top: 33px;
+
+}
+
+#titleShadow{
+  font-size: 75px;
+  font-family: "Avenir Next" !important;
+  font-weight: bold;
+  color: rgba(0,0,0,.05);
+  position: absolute;
+  margin-left: 10px;
+  z-index: 0;
+}
+
+.title-box{
+  z-index: 0;
+}
+
+.sort-box{
+  padding-left : 275px;
+  padding-top: 50px;
+}

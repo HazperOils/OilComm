@@ -4,6 +4,7 @@
   "description":"A set of four unique olive oils from California, Greece, Spain and Italy made exclusively for OliveOilLovers.com. Comes in a high quality black gift box:" ,
   "price":"$19,00",
   "category": "Gifts",
+  "categoryId": "Gifts",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-12.png"
+  "imageUrl": "assets/img/oil-12.png"
 }

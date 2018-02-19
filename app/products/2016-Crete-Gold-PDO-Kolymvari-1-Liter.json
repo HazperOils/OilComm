@@ -4,6 +4,7 @@
   "description":"Produced in the small PDO (Protected Designation of Origin) region of Kolymvari, Crete Gold is pressed from 100% Koroneiki olives. The oil is extraordinarily well-balanced with aromas of green apple, fresh cut grass and artichoke with a pleasantly light peppery finish. Koroneiki olive oil is famous for pairing well with nearly any food such as pulses, bean soups, fresh garden salads, fried potatoes, grilled vegetables and fish, and is a fantastic oil for nearly any cooking application." ,
   "price":"$16,00",
   "category": "Greek Olive Oil",
+  "categoryId": "Greek-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-21.png"
+  "imageUrl": "assets/img/oil-21.png"
 }

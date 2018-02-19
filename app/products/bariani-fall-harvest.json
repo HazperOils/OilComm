@@ -4,6 +4,7 @@
   "description":"From California’s heartland comes a luscious extra virgin olive oil pressed from locally-grown Manzanillo and Mission olives from the Bariani family. Enjoy this olive oil on your favorite dishes and experience the flavor of the bountiful California land. A great complement to any food and a perfect choice at any special occasion, this California extra virgin olive oil will accommodate even the most discriminating palate." ,
   "price":"$13,95",
   "category": "California Olive Oil",
+  "categoryId": "California-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-2.png"
+  "imageUrl": "assets/img/oil-2.png"
 }

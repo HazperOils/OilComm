@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('core', ['core.product']);
+angular.module('core', ['core.product','core.category']);

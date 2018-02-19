@@ -4,6 +4,7 @@
   "description":"From the season’s first pickings, Entelia Novello is crushed from early harvested Koroneiki olives grown in the PDO certified region of Kolymbari in Western Crete, one of Greece’s most renowned production regions. This very special extra virgin olive oil is a product of love and passion, produced on small family-owned farms at the foothills of the picturesque White Mountains of Western Crete. Harvesting is done by hand of the greenest olives then transported to the mill for crushing within the crucial short hours after picking. The result of this Novello is a supremely fresh, unfiltered oil that is vibrantly emerald green in color with characteristic flavor notes of fresh herbs, green fruits with a hint of artichoke and a spicy, peppery finish. The Greeks enjoy their Novello dipped in freshly baked bread, drizzled over grilled fish and vegetables, boiled legumes and mountain greens, and fish soups." ,
   "price":"$32,00",
   "category": "Greek Olive Oil",
+  "categoryId": "Greek-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-11.png"
+  "imageUrl": "assets/img/oil-11.png"
 }

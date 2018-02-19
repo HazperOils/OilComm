@@ -13,6 +13,12 @@ angular.
         when('/products/:productId', {
           template: '<product-detail></product-detail>'
         }).
-        otherwise('/products');
+        when('/categories/', {
+          template: '<category-list></category-list>'
+        }).
+        when('/categories/:categoryId', {
+          template: '<product-list></product-list>'
+        }).
+        otherwise('/categories');
     }
   ]);

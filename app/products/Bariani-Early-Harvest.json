@@ -4,6 +4,7 @@
   "description":"This extra virgin olive oil is produced entirely from green olives harvested from the Bariani orchards in October giving it an intense and robust flavor. With peppery notes of green grass and artichoke, try this olive oil on your favorite dishes and experience the flavor of the bountiful California land." ,
   "price":"$17,95",
   "category": "California Olive Oil",
+  "categoryId": "California-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-6.png"
+  "imageUrl": "assets/img/oil-6.png"
 }

@@ -4,6 +4,7 @@
   "description":"The perfect olive oil for the bacon lover and produced exclusively for OliveOilLovers.com. Tantalize you taste buds with this unique extra virgin olive oil pressed from the highest quality Italian olives and naturally infused with a smoky bacon flavor." ,
   "price":"$8,00",
   "category": "Spanish Olive Oil",
+  "categoryId": "Spanish-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-23.png"
+  "imageUrl": "assets/img/oil-23.png"
 }

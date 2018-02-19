@@ -5,6 +5,7 @@
   "description":"The special organic aromatic oils from Olio Quattrociocchi are a must-try. Specially fused with garlic during the crushing of the olives, this oil is made exclusively from olives grown on their organic farm in Alatri from the Itrana, Moraiolo, Leccino and Frantoio varieties. Try this oil with roasted meats and potatoes, pesto, pasta or added to mashed potatoes." ,
   "price":"$11,00",
   "category": "Italian Olive Oil",
+  "categoryId": "Italian-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-8.png"
+  "imageUrl": "assets/img/oil-8.png"
 }

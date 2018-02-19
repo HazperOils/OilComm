@@ -10,10 +10,9 @@
         <a class="dropdown nav-link" href="#">
           <figure class="category-icon"></figure>
           <span class="nav-names">Categories
-         <div class="dropdown-content">
-           <p  class="dropdown-content-list" href="#olive">Olives <span class="drowdown-content-list-icon"><img src="css/assets/svg/olive.svg"/></span> </p>
-          <p class="dropdown-content-list" href="#cheese">Cheese <span class="drowdown-content-list-icon"><img src="css/assets/svg/cheese.svg"/></span></p>
-          <p class="dropdown-content-list" href="#milk">Milk <span class="drowdown-content-list-icon"><img src="css/assets/svg/milk.svg"/></span></p>
+         <div class="dropdown-content" ng-repeat="category in $ctrl.categories">
+           <a>{{category.name}}</a>
+           <p  class="dropdown-content-list" href = "#!/categories/{{category.id}}">{{category.name}}</p>
   </div>
   </span>
   </a>

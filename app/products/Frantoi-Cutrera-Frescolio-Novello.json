@@ -4,6 +4,7 @@
   "description":"Harvested early from green olives and bottled soon after crushing, this limited edition unfiltered olive oil is the true taste of the Sicilian olive harvest. Its fresh, fruity aroma is extraordinarily intense with pronounced notes of fresh aromatic herbs that is characteristic of a freshly produced oil. The full-bodied flavor is rich and enveloping with a spicy and bitter freshness. This oil is exceptional on freshly baked bread and perfect on bruschetta, vegetable soups and grilled game, as well as hearty winter dishes such as stews and casseroles." ,
   "price":"$35,00",
   "category": "Italian Olive Oil",
+  "categoryId": "Italian-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-5.png"
+  "imageUrl": "assets/img/oil-5.png"
 },

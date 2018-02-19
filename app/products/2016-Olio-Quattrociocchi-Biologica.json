@@ -4,6 +4,7 @@
   "description":"Produced exclusively from organic olives grown on the Quattrociocchi Estate, this extra virgin olive oil is medium-intense in fruitiness with a powerful and strong aroma, characterized by vegetal notes, green grass, mint and rosemary. Its taste is fine and balanced with a flavor of garden vegetables and dried fruit with a strong, pungent finish." ,
   "price":"$19,00",
   "category": "Italian Olive Oil",
+  "categoryId": "Italian-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "css/assets/img/oil-13.png"
+  "imageUrl": "assets/img/oil-13.png"
 }

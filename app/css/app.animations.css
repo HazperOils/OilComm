@@ -1,0 +1,30 @@
+.product-list-item.ng-enter,
+.product-list-item.ng-leave,
+.product-list-item.ng-move {
+  transition: 0.5s linear all;
+}
+
+.product-list-item.ng-enter,
+.product-list-item.ng-move {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.product-list-item.ng-enter.ng-enter-active,
+.phone-liproduct-list-itemst-item.ng-move.ng-move-active {
+  height: 120px;
+  opacity: 1;
+}
+
+.product-list-item.ng-leave {
+  opacity: 1;
+  overflow: hidden;
+}
+
+.product-list-item.ng-leave.ng-leave-active {
+  height: 0;
+  opacity: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}

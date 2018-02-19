@@ -5,5 +5,8 @@ angular.module('oilApp', [
   'productList',
   'ngRoute',
   'productDetail',
-  'core'
+  'core',
+  'ngAnimate',
+  'categoryList',
+  'categoryDetail'
 ]);

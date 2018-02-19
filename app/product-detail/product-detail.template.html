@@ -2,12 +2,15 @@
   <div class="container">
     <div class="product-detail-content">
       <div class="row navigation-label">
-        <a class="nav-link" href="#!/categories">Categories<span class="sr-only">(current)</span></a>
-        <a class="nav-link">/<span class="sr-only">(current)</span></a>
-        <a class="nav-link" href="#!/categories/{{$ctrl.product.categoryId}}">{{$ctrl.product.category}}<span class="sr-only">(current)</span></a>
-        <a class="nav-link">/<span class="sr-only">(current)</span></a>
-        <a class="nav-link">{{$ctrl.product.name}}<span class="sr-only">(current)</span></a>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#!/categories">Categories</a></li>
+            <li class="breadcrumb-item"><a href="#!/categories/{{$ctrl.product.categoryId}}">{{$ctrl.product.category}}</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{$ctrl.product.name}}</li>
+          </ol>
+        </nav>
       </div>
+
       <div class="row">
         <div class="col-lg-6">
           <div class="item-circle">
@@ -29,7 +32,7 @@
 <h6 class="priceTxt">{{$ctrl.product.price}}<h6>
 </div>
 <div class="col-lg-4 add-button-container">
- <button type="button" class="btn btn-outline-warning btn-shape">Add to Cart</button> <span mb-3><a class="delivery-label mb-3">Delivery: In 5 days</a></span>
+ <button type="button" class="btn btn-outline-warning btn-shape">Add to Cart</button> 
 </div>
 </div>
 </div>

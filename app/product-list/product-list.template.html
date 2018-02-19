@@ -15,7 +15,7 @@
     </div>
     </div>
     <div class="products-content">
-      <div class="row ">
+      <div class="row">
         <div class="col-sm-3 pb-3 product-list-item" ng-repeat="product in $ctrl.products | orderBy:$ctrl.orderProp">
           <div class="border rounded pt-3">
           <div class="text-center">
@@ -23,7 +23,12 @@
           </div>
           <h3>{{product.name}}</h3>
           <p>{{product.price}}</p>
-          <div class="text-center"><a href = "#!/products/{{product.id}}">Detail</a></div>
+          <div class="text-center">
+            <a href = "#!/products/{{product.id}}">
+              <button type="button" class="btn detail-btn">Detail</button>
+            </a>
+          </div>
+
         </div>
       </div>
       </div>

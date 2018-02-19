@@ -1,5 +1,5 @@
 'use strict';
 
 angular.module('productDetail', [
-  'ngRoute'
+  'ngRoute','core.product'
 ]);

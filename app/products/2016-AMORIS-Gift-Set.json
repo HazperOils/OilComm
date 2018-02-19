@@ -6,5 +6,5 @@
   "category": "Gifts",
   "categoryId": "Gifts",
   "quantity": "100",
-  "imageUrl": "assets/img/oil-12.png"
+  "imageUrl": "../assets/img/oil-12.png"
 }

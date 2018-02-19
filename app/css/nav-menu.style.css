@@ -21,7 +21,7 @@ html, body, #cover {
 }
 
 .site-icon {
-  background-image: url(assets/svg/water.svg);
+  background-image: url(../assets/svg/water.svg);
   background-repeat: no-repeat;
   width: 40px;
   height: 40px;
@@ -33,27 +33,27 @@ html, body, #cover {
 }
 
 .home-icon {
-  background-image: url(assets/svg/Home.svg);
+  background-image: url(../assets/svg/Home.svg);
 }
 
 .category-icon {
-  background-image: url(assets/svg/categories.svg);
+  background-image: url(../assets/svg/categories.svg);
 }
 
 .about-icon {
-  background-image: url(assets/svg/about.svg);
+  background-image: url(../assets/svg/about.svg);
 }
 
 .contact-icon {
-  background-image: url(assets/svg/contact.svg);
+  background-image: url(../assets/svg/contact.svg);
 }
 
 .search-icon {
-  background-image: url(assets/svg/search.svg);
+  background-image: url(../assets/svg/search.svg);
 }
 
 .basket-icon {
-  background-image: url(assets/svg/basket.svg);
+  background-image: url(../assets/svg/basket.svg);
 }
 
 .dropdown {

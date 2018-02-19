@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('navMenu', []);
+angular.module('navMenu', ['core.category']);

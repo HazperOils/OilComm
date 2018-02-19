@@ -6,5 +6,5 @@
   "category": "Spanish Olive Oil",
   "categoryId": "Spanish-Olive-Oil",
   "quantity": "100",
-  "imageUrl": "assets/img/oil-23.png"
+  "imageUrl": "../assets/img/oil-23.png"
 }

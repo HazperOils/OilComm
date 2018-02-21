@@ -141,3 +141,12 @@ nav {
 #search-bar:target {
   display: block;
 }
+
+span.badge{
+  background-color: #FACD63;
+  color: white;
+  border-radius: 10px;
+  font-family: "Avenir Next" !important;
+  font-weight: lighter;
+
+}

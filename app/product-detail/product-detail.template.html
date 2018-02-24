@@ -24,15 +24,15 @@
           <p class="product-description">{{$ctrl.product.description}}<p>
 <div class="row">
 <div class="col-lg-4 quantity-container">
-  <button ng-click="quantity = quantity - 1" class="btn btn-outline-warning increment-button">-</button>
+  <button ng-click="decreaseQuantity()" class="btn btn-outline-warning increment-button">-</button>
     <input class="input-container" maxlength="2" value="{{quantity}}"> </input>
-  <button ng-click="quantity = quantity + 1"  class="btn btn-outline-warning increment-button">+</button>
+  <button ng-click="incrementQuantity()"  class="btn btn-outline-warning increment-button">+</button>
 </div>
 <div class="col-lg-4 price-container">
-<h6 class="priceTxt">{{$ctrl.product.price}}<h6>
+<h6 class="priceTxt">{{price | currency}}<h6>
 </div>
 <div class="col-lg-4 add-button-container">
- <button type="button" class="btn btn-outline-warning btn-shape">Add to Cart</button> 
+ <button type="button" class="btn btn-outline-warning btn-shape">Add to Cart</button>
 </div>
 </div>
 </div>

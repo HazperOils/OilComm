@@ -7,7 +7,6 @@ angular.
     controller: ['Category',
     function CategoryListController(Category) {
       this.categories = Category.query();
-      console.log(this.categories);
     }
   ]
   });

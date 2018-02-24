@@ -7,7 +7,6 @@ angular.
     controller: ['$http', '$routeParams',
       function CategoryDetailController($http, $routeParams) {
         $http.get('categories/' + $routeParams.categoryId + '.json').then(function(response2) {
-
         });
       }
     ]

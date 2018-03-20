@@ -45,3 +45,12 @@
 .row{
     margin-bottom: 30px;
 }
+
+.btn-shape{
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+margin-right: 250px;
+   
+}

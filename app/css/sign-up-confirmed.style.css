@@ -1,0 +1,24 @@
+
+.sign-button{
+  width: 170px;
+  height: 35px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.confirm-text{
+  font-size: 30px;
+  width: 280px;
+  text-align: center;
+  padding-top: 200px;
+
+
+}
+
+.no-gutter {
+   [class*="col-"] {
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+   }
+}

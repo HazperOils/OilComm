@@ -1,0 +1,47 @@
+
+
+.basket-page-content p{
+    
+    margin-top: 50px;
+    font-family:fantasy;
+    text-align: left;
+    font font-size: 25px;
+    
+}
+
+.basket-page-content h5{
+    
+    
+    font-family:monospace;
+    text-align: left;
+   color: #facd63;
+    
+}
+
+.input-container{
+    margin-top: 50px;
+    width: 35px;
+    height: 35px;
+}
+
+.basket-page-content h4{
+    
+    margin-top: 50px;
+    font-family:monospace;
+    text-align: left;
+   
+    
+}
+
+.basket-page-content h3{
+    
+    font-size: 20px;
+    font-family:monospace;
+    text-align: right;
+    margin-right: 250px;
+    
+}
+
+.row{
+    margin-bottom: 30px;
+}
